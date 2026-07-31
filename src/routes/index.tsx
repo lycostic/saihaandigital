@@ -111,21 +111,13 @@ const services = [
     title: "Basic SEO",
     body: "Clean structure, fast pages and proper titles so you show up for local searches.",
   },
-  {
-    icon: MapPin,
-    title: "Google Maps & Contact",
-    body: "Click-to-call, maps, hours and forms wired up so contacting you takes one tap.",
-  },
 ];
 
 const industries = [
   "Plumbers",
   "Electricians",
-  "HVAC",
   "Roofers",
-  "Landscapers",
   "Painters",
-  "Contractors",
   "Cleaning Companies",
   "Auto Detailers",
   "Tutors",
@@ -135,16 +127,14 @@ const industries = [
 
 const reasons = [
   { icon: Layout, title: "Professional design", body: "Layouts that look like an established, credible company." },
-  { icon: Phone, title: "Easy customer contact", body: "Call buttons and forms where people actually look for them." },
   { icon: Clock, title: "Fast turnaround", body: "Most projects go live in one to three weeks." },
-  { icon: Monitor, title: "Modern layouts", body: "Clean structure, real hierarchy, no clutter." },
   { icon: Smartphone, title: "Mobile-first design", body: "Built for phones first, then scaled up." },
   { icon: MessageSquare, title: "Clear communication", body: "Plain English updates. No jargon, no ghosting." },
   { icon: Wallet, title: "Affordable pricing", body: "Agency quality without the agency overhead." },
   { icon: Wrench, title: "Personal attention", body: "You work with me directly, start to finish." },
 ];
 
-const upcoming = ["Electrician", "HVAC", "Landscaping", "Roofing", "Cleaning Company"];
+const upcoming = ["Electrician", "Landscaping", "Roofing", "Cleaning Company"];
 
 const process = [
   { step: "01", title: "Free Consultation", body: "A short call to understand your business, your customers and your goals." },
