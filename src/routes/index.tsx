@@ -21,6 +21,7 @@ import {
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
 import { ContactForm } from "@/components/site/ContactForm";
+import { AuthNavLink } from "@/components/site/AuthNavLink";
 import heroImage from "@/assets/hero.jpg";
 import plumbingImage from "@/assets/work-plumbing.jpg";
 
@@ -192,9 +193,12 @@ function Index() {
             </span>
             <span className="truncate font-display text-base font-semibold">Saihaan Digital</span>
           </a>
-          <Button asChild className="h-11 rounded-xl px-4 font-semibold">
-            <a href="#contact">Free Review</a>
-          </Button>
+          <div className="flex items-center gap-4">
+            <AuthNavLink />
+            <Button asChild className="h-11 rounded-xl px-4 font-semibold">
+              <a href="#contact">Free Review</a>
+            </Button>
+          </div>
         </div>
       </header>
 
@@ -454,11 +458,7 @@ function Index() {
                   {EMAIL}
                 </a>
               </li>
-              <li>
-                <a href="#contact" className="text-ink-foreground/80 hover:text-ink-foreground">
-                  LinkedIn (coming soon)
-                </a>
-              </li>
+              <li className="text-ink-foreground/60">LinkedIn — coming soon</li>
             </ul>
           </div>
           <p className="mt-10 border-t border-ink-foreground/15 pt-6 text-xs text-ink-foreground/60">
