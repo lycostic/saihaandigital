@@ -79,16 +79,22 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Saihaan Digital — Websites for Local Businesses" },
+      { title: "Saihaan Digital — Websites That Win Local Customers" },
       {
         name: "description",
         content:
-          "Modern, fast, mobile-first websites for local service businesses in the Greater Toronto Area and across Canada.",
+          "Saihaan Digital builds fast, mobile-first websites for plumbers, electricians, HVAC, roofers and other local service businesses in Toronto and across Canada.",
       },
       { name: "author", content: "Saihaan Digital" },
       { property: "og:site_name", content: "Saihaan Digital" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Saihaan Digital — Websites That Win Local Customers" },
+      { name: "twitter:title", content: "Saihaan Digital — Websites That Win Local Customers" },
+      { property: "og:description", content: "Saihaan Digital builds fast, mobile-first websites for plumbers, electricians, HVAC, roofers and other local service businesses in Toronto and across Canada." },
+      { name: "twitter:description", content: "Saihaan Digital builds fast, mobile-first websites for plumbers, electricians, HVAC, roofers and other local service businesses in Toronto and across Canada." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e346578b-996d-401c-8d0b-820e7aa794ef/id-preview-ad2e8ae8--e78bab11-5de9-4f01-81f5-9da9a4448ddb.lovable.app-1785551153795.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e346578b-996d-401c-8d0b-820e7aa794ef/id-preview-ad2e8ae8--e78bab11-5de9-4f01-81f5-9da9a4448ddb.lovable.app-1785551153795.png" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },

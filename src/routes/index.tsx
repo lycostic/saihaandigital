@@ -41,7 +41,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Modern, conversion-focused website design and redesign for local service businesses. Free website review.",
+          "Saihaan Digital builds fast, mobile-first websites for plumbers, electricians, HVAC, roofers and other local service businesses in Toronto and across Canada.",
       },
       { property: "og:url", content: "/" },
       { property: "og:type", content: "website" },
